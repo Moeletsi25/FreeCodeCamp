@@ -4,7 +4,7 @@ PROJECT #1: Demographic Data Analyzer
 =========================================================================================================================================================================
 
 
-In this challenge you must analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database. Here is a sample of what the data looks like:
+In this challenge I analyze demographic data using Pandas. I'm given a dataset of demographic data that was extracted from the 1994 Census database. Here is a sample of what the data looks like:
 
 |    |   age | workclass        |   fnlwgt | education   |   education-num | marital-status     | occupation        | relationship   | race   | sex    |   capital-gain |   capital-loss |   hours-per-week | native-country   | salary   |
 |---:|------:|:-----------------|---------:|:------------|----------------:|:-------------------|:------------------|:---------------|:-------|:-------|---------------:|---------------:|-----------------:|:-----------------|:---------|
@@ -13,7 +13,7 @@ In this challenge you must analyze demographic data using Pandas. You are given 
 |  2 |    38 | Private          |   215646 | HS-grad     |               9 | Divorced           | Handlers-cleaners | Not-in-family  | White  | Male   |              0 |              0 |               40 | United-States    | <=50K    |
 |  3 |    53 | Private          |   234721 | 11th        |               7 | Married-civ-spouse | Handlers-cleaners | Husband        | Black  | Male   |              0 |              0 |               40 | United-States    | <=50K    |
 |  4 |    28 | Private          |   338409 | Bachelors   |              13 | Married-civ-spouse | Prof-specialty    | Wife           | Black  | Female |              0 |              0 |               40 | Cuba             | <=50K    |
-You must use Pandas to answer the following questions:
+I use Pandas to answer the following questions:
 
 How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
 What is the average age of men?
